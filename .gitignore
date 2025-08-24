@@ -1,0 +1,7 @@
+# Ignore large outputs
+data/output/
+reports/outputs/
+reports/figures/
+*.csv
+*.xlsx
+*.png
