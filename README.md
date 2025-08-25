@@ -1,46 +1,47 @@
-# Credit Risk Analytics Project
+# Credit Risk Analytics
 
-This project demonstrates **credit portfolio modeling, risk analysis, and Monte Carlo simulations** using Python, SQL, and Excel. It is designed to showcase financial modeling skills for asset and risk management.
+This project demonstrates a complete end-to-end workflow for credit portfolio analytics using Python, SQL, and Excel.
+
+---
+
+## Project Overview
+
+The project includes:
+
+1. **Synthetic credit portfolio generation**
+2. **Exploratory Data Analysis (EDA)**
+3. **Credit risk model building** (PD, LGD, EAD)
+4. **Monte Carlo simulation of portfolio losses**
+5. **Reporting and visualization** (charts, Excel reports)
+6. **SQL queries for storing and summarizing data**
+7. **Validation and testing of results**
 
 ---
 
 ## Project Structure
+
+
 ```text
 credit-risk-analytics/
-│
 ├── data/
-│   ├── raw/               # Raw input datasets (e.g., credit portfolio CSV)
-│   ├── interim/           # Intermediate datasets during processing
-│   ├── processed/         # Processed datasets and simulation outputs
-│   └── temp/              # Temporary files
-│
-├── notebooks/             # Jupyter notebooks for each step
-│   ├── GeneratePortfolioData.ipynb
-│   ├── EDA.ipynb
-│   ├── BuildModels.ipynb
-│   ├── MonteCarloSimulation.ipynb
-│   ├── GenerateReports.ipynb
-│   ├── SQLQueries.ipynb
-│   ├── OrganizeScripts.ipynb
-│   └── TestingValidation.ipynb
-│
+│ ├── raw/ # Raw input datasets (e.g., credit portfolio CSV)
+│ ├── interim/ # Intermediate datasets during processing
+│ ├── processed/ # Processed datasets and simulation outputs
+│ └── temp/ # Temporary files
+├── notebooks/
+│ ├── GeneratePortfolioData.ipynb
+│ ├── EDA.ipynb
+│ ├── BuildModels.ipynb
+│ ├── MonteCarloSimulation.ipynb
+│ ├── GenerateReports.ipynb
+│ ├── SQLQueries.ipynb
+│ └── TestingValidation.ipynb # Notebook for validation and testing
 ├── reports/
-│   ├── figures/           # Charts and visualizations
-│   └── outputs/           # Excel or HTML reports
-│
-├── src/                   # Reusable functions and scripts
-│   ├── credit_risk/       # Model functions (PD, LGD, EAD)
-│   └── risk_models/       # Simulation and risk-related functions
-│
-├── scripts/               # Optional standalone scripts
-│   └── README.md
-│
-├── tests/                 # Unit tests and validation scripts
-│   └── README.md
-│
-├── sql/                   # SQLite database and queries
-│
-├── venv/                  # Python virtual environment (optional)
+│ ├── figures/ # Charts and visualizations
+│ └── outputs/ # Excel or HTML reports
+├── scripts/ # Optional standalone scripts
+├── tests/ # Placeholder for future tests (.gitkeep)
+├── sql/ # SQLite database and queries
 ├── README.md
 └── .gitignore
 ```
@@ -56,7 +57,6 @@ credit-risk-analytics/
 | `MonteCarloSimulation.ipynb` | Portfolio loss simulation using Monte Carlo |
 | `GenerateReports.ipynb` | Generate charts, tables, and Excel reports |
 | `SQLQueries.ipynb` | Store portfolio and simulation data in SQLite and run queries |
-| `OrganizeScripts.ipynb` | Organize reusable code into scripts for GitHub |
 | `TestingValidation.ipynb` | Test and validate data, models, and simulation outputs |
 
 ---
