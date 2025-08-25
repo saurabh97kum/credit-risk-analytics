@@ -1,1 +1,1 @@
-# SQL queries folder
+# SQL queries
