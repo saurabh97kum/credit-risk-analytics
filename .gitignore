@@ -1,7 +1,13 @@
-# Ignore large outputs
-data/output/
-reports/outputs/
-reports/figures/
-*.csv
-*.xlsx
-*.png
+# Virtual environment
+venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Reports and large outputs
+reports/
+outputs/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
