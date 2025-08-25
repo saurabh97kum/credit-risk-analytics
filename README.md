@@ -5,7 +5,7 @@ This project demonstrates **credit portfolio modeling, risk analysis, and Monte 
 ---
 
 ## Project Structure
-
+```text
 credit-risk-analytics/
 │
 ├── data/
@@ -43,7 +43,7 @@ credit-risk-analytics/
 ├── venv/                  # Python virtual environment (optional)
 ├── README.md
 └── .gitignore
-
+```
 ---
 
 ## Steps / Notebooks
