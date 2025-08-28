@@ -103,8 +103,6 @@ jupyter notebook
 ## Notes
 
 - The `reports/` folder contains generated figures and Excel reports.  
-- The `src/` folder has reusable functions to keep notebooks clean.  
-- The `tests/` folder contains validation scripts for reproducibility.  
 - Ensure paths in notebooks match your local project folder.  
 
 ---
